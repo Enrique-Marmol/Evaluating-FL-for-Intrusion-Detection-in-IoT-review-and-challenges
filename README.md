@@ -1,7 +1,7 @@
-# Evaluating-FL-for-ID-in-IoT-review-and-challenges
+# Evaluating-FL-for-Intrusion-Detection-in-IoT-review-and-challenges
 
 
-## Scenarios:
+## Dataset of different scenarios:
 
 Basic: https://gofile.io/d/rzFmNk
 
