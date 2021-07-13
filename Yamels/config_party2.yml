@@ -1,0 +1,28 @@
+aggregator:
+  ip: 127.0.0.1
+  port: 5000
+connection:
+  info:
+    ip: 127.0.0.1
+    port: 8087
+    tls_config:
+      enable: false
+  name: FlaskConnection
+  path: ibmfl.connection.flask_connection
+  sync: false
+data:
+  info:
+    txt_file: /home/enrique/IBMFL1.0.4/examples/configs/sklearn_logclassification/data_party2.csv
+  name: DDoSSklearnDataHandler
+  path: ibmfl.util.data_handlers.ddos_sklearn_data_handler
+local_training:
+  name: FedAvgLocalTrainingHandler
+  path: ibmfl.party.training.fedavg_local_training_handler
+model:
+  name: SklearnSGDFLModel
+  path: ibmfl.model.sklearn_SGD_linear_fl_model
+  spec:
+    model_definition: /home/enrique/IBMFL1.0.4/examples/configs/sklearn_logclassification/modelo_ton_iot.pickle
+protocol_handler:
+  name: PartyProtocolHandler
+  path: ibmfl.party.party_protocol_handler
