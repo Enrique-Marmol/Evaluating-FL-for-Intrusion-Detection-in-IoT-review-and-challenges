@@ -3,8 +3,4 @@
 
 ## Dataset of different scenarios:
 
-Basic: https://gofile.io/d/rzFmNk
-
-Better Balanced: https://gofile.io/d/HNwcv3
-
-Mixed: https://gofile.io/d/WqnahW
+https://mega.nz/folder/FIoClAKT#ueQbjk5iU7J8XW12lLuvaw
